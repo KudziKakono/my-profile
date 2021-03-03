@@ -1,0 +1,123 @@
+body {
+	background-color: #8b2151;
+	color: #21518B;
+	font-family: Calibri;
+}
+
+h1 {
+
+	color: #21518B;
+	font-family: Calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+a:hover {
+	color: yellow;
+}
+
+div {
+
+	background: none;
+	padding: 50px
+	border: 2px solid black;
+	width: 500px;
+	margin: auto;
+	box-shadow: 0 10px 30px (0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+/* custom design with class*/
+
+.container {
+	width: 700px
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: lightblue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+background-color: #21518B;
+color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: lightblue;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
